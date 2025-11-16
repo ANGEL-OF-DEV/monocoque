@@ -1,0 +1,27 @@
+{
+  "name": "@angelof.dev/www",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "build:github": "nuxt build --preset github_pages",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "3.8.0",
+    "better-sqlite3": "12.4.1",
+    "nuxt": "4.2.1",
+    "nuxt-shiki": "0.3.1",
+    "rehype-mathjax": "7.1.0",
+    "remark-math": "6.0.0",
+    "vue": "3.5.24",
+    "vue-router": "4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "vite": "4.4.9"
+  }
+}

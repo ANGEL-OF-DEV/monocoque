@@ -1,0 +1,69 @@
+﻿:root {
+  --h-border-y-width: 3px;
+  --h-border-x-width: 1rch;
+  --h-border-style: solid;
+  --h-padding-factor: 0.25;
+  --h-padding-pair-factor: 0.05;
+}
+
+h1 {
+  font-size: 3ch;
+}
+
+h2 {
+  font-size: 2ch;
+}
+
+h3 {
+  font-size: 1ch;
+}
+
+h4, h5, h6 {
+  font-size: 1ch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  padding-top: calc(1ch * var(--h-padding-factor));
+  padding-bottom: calc(1ch * var(--h-padding-factor));
+  border-style: var(--h-border-style);
+  border-left-width: var(--h-border-x-width);
+  border-right-width: var(--h-border-x-width);
+  border-top-width: var(--h-border-y-width);
+  border-bottom-width: var(--h-border-y-width);
+}
+
+*[join-next],
+  /*  <selected>:has(+ <previous sibling>)
+      Explain: Select element type on the left if it has next sibling of type in the bracket.
+      See: https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator#selecting_a_previous_sibling
+  */
+h1:has(+ h2),
+h2:has(+ h3),
+h3:has(+ h4),
+h4:has(+ h5),
+h5:has(+ h6) {
+  padding-bottom: calc(1ch * var(--h-padding-pair-factor));
+  border-bottom-width: 0;
+}
+
+*[join-prev],
+h1 + h1,
+h2 + h2,
+h3 + h3,
+h4 + h4,
+h5 + h5,
+h6 + h6,
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  padding-top: calc(1ch * var(--h-padding-pair-factor));
+  border-top-width: 0;
+}

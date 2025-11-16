@@ -1,0 +1,7 @@
+<!--——————————————————————————————————————————————————————————————————————————————————————————>
+
+      This file configures projects late in build process,
+      after all *.props but not neccesarily before other *.targets.
+
+————————————————————————————————————————————————————————————————————————————————————————————-->
+<Project/>

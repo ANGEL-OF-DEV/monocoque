@@ -1,0 +1,11 @@
+﻿:root {
+  --body-font-family: var(--font-monospace), monospace;
+}
+
+body {
+  background-color: var(--color-BG);
+  font-family: var(--body-font-family), monospace;
+  font-weight: var(--weight-normal);
+  color: var(--color-B1);
+  overflow-y: scroll;
+}

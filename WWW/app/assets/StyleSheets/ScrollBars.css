@@ -1,0 +1,24 @@
+﻿:root {
+  --scrollbar-border-radius: 0;
+  --scrollbar-thumb-color: var(--color-BG-w1);
+  --scrollbar-thumb-hover-color: var(--color-BG-w2);
+  --scrollbar-track-color: var(--color-BG);
+  --scrollbar-width: 2ch;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: var(--scrollbar-border-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color);
+}

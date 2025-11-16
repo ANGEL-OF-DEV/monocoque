@@ -1,0 +1,20 @@
+<!--——————————————————————————————————————————————————————————————————————————————————————————>
+
+      This file configures projects early in build process,
+      before *.targets but not neccesarily before other *.props.
+
+————————————————————————————————————————————————————————————————————————————————————————————-->
+<Project>
+
+  <PropertyGroup>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+  </PropertyGroup>
+
+  <PropertyGroup Label="(DEFINE REPOSITORY LAYOUT)">
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <RepositoryDirectory>$(MSBuildThisFileDirectory)</RepositoryDirectory>
+    <ArtifactsPath>$(RepositoryDirectory)Artifacts</ArtifactsPath>
+    <MSBuildImportsPath>$(RepositoryDirectory)/MSBuild.Imports</MSBuildImportsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildImportsPath)/Authorship.props"/>
+</Project>

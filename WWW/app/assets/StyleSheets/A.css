@@ -1,0 +1,20 @@
+﻿:root {
+  --a-color: var(--color-blue);
+}
+
+a {
+  color: var(--a-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--a-color);
+}
+
+a[href^="#"] {
+  color: var(--color-B1);
+  text-decoration: none;
+}

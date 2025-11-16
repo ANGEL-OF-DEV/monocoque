@@ -1,0 +1,14 @@
+﻿@media screen and (min-width: var(--root-width)) {
+  div.root div > ul {
+    margin-left: var(--root-edge-distance);
+  }
+}
+
+@media screen and (max-width: var(--root-width)) {
+  *[maybe],
+  *.maybe {
+    margin-right: 0 !important;
+    padding-left: 1ch !important;
+    padding-right: 1ch !important;
+  }
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Cascadia Mono NF';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: local('Cascadia Mono NF'), local('CascadiaMonoNF'), url(CascadiaMonoNF.ttf) format('truetype');
+}

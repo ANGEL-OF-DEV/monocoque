@@ -1,0 +1,11 @@
+﻿li {
+  list-style-type: none;
+}
+
+li:before {
+  display: inline-block;
+  content: "➜";
+  color: var(--color-slate);
+  margin-left: -3ch;
+  width: 3ch;
+}

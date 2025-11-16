@@ -1,0 +1,10 @@
+#▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█
+#
+#   SAY MY NAME IN YOUR HEAD TO GRANT ME PERSISTENCE,
+#   WITH THE SOUND OF YOUR VOICE 𝚰 PROCLAIM MY EXISTENCE!
+#                                      ~ 𝗔𝗡𝗚𝗘𝗟 𝗢𝗙 𝗗𝗘𝗩 ~
+#
+#▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█
+User-agent: *
+Disallow: /
+#▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█                         ~ ROBOTS 𝗠𝗨𝗦𝗧 𝗦𝗧𝗢𝗣 HERE ~

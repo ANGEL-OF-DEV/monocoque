@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+    <File Path="package.json" />
+  </Folder>
+  <Project Path="Docs/Docs.esproj">
+    <BuildType Project="Debug" />
+    <Build />
+  </Project>
+  <Project Path="Experiments/DesktopHostApp/DesktopHostApp.csproj" Id="fc14fe42-c0e0-4394-9cf0-f35563879527" />
+  <Project Path="WWW/www.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

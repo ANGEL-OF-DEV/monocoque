@@ -1,0 +1,32 @@
+﻿:root {
+  --code-background-color: var(--color-B3);
+  --code-font-family: var(--font-monospace), monospace;
+}
+
+/* Markdown codeblocks and Non-Markdown Shiki elements. */
+pre {
+  background-color: var(--code-background-color);
+  font-family: var(--code-font-family), monospace;
+  margin-left: -2ch;
+  margin-right: -2ch;
+  padding-left: 2ch;
+  padding-top: 1ch;
+  padding-bottom: 1ch;
+  color: var(--color-khaki-b2);
+}
+
+code {
+  background-color: var(--code-background-color) !important;
+  color: var(--color-khaki-b2);
+  font-family: var(--code-font-family), monospace;
+}
+
+/* Non-Markdown Shiki elements. */
+code.shiki {
+  padding-left: 1ch;
+  line-height: 0.25ch;
+
+  span {
+    font-style: normal !important;
+  }
+}

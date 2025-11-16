@@ -1,0 +1,14 @@
+<!--——————————————————————————————————————————————————————————————————————————————————————————>
+
+    Specifies authorship, contributors and license information.
+
+-———————————————————————————————————————————————————————————————————————————————————————————-->
+<Project>
+  <PropertyGroup>
+    <Contact>𝖏𝖆𝖗.𝖔𝖋.𝖘𝖑𝖆𝖛＠𝖆𝖓𝖌𝖊𝖑𝖔𝖋.𝖉𝖊𝖛</Contact>
+    <Authors>𝗔𝗡𝗚𝗘𝗟𝗢𝗙𝗗𝗘𝗩 𝚊𝚗𝚍 𝐜𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐨𝐫𝐬</Authors>
+    <Copyright>𝗖𝗢𝗣𝗬𝗥𝗜𝗚𝗛𝗧 (c) 𝗔𝗡𝗚𝗘𝗟𝗢𝗙𝗗𝗘𝗩 𝚊𝚗𝚍 𝐜𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐨𝐫𝐬</Copyright>
+    <License>LICENSED UNDER THE 𝗘𝗨𝗣𝗟 [EUPL.EU/1.2/EN]</License>
+    <LicenseExpression>EUPL-1.2</LicenseExpression>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+{
+  "name": "@angelof.dev/monocoque",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-of-dev/monocoque.git"
+  },
+  "workspaces": [
+    "WWW"
+  ],
+  "scripts": {},
+  "engines": {
+    "node": ">=24.11.0"
+  }
+}

@@ -1,0 +1,12 @@
+<!--——————————————————————————————————————————————————————————————————————————————————————————>
+
+      This file configures NuGet packages for the whole solution.
+
+————————————————————————————————————————————————————————————————————————————————————————————-->
+<Project>
+  <PropertyGroup>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.TypeScript.MSBuild" Version="5.9.3" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers"/>
+  </ItemGroup>
+</Project>
